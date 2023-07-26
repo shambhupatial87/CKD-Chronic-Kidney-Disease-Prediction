@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Chronic Kidney Disease</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../static/css/stylehome.css">
+  
+</head>
+
+<body>
+    <div class="main-block">
+        <div class="left-part">
+            <div class="cloud">
+                Welcome to Chronic Kidney Disease Prediction
+            </div>
+            <img class="second-img" src="../static/doooc.png">
+        </div>
+        <form action="{{ url_for('index')}}"method="post" class="inner-box">
+            <img class="third-img" src="../static/kid.png">
+            <div class="info">
+                <input class="fname" type="text" name="name" placeholder="Name ">
+                <input type="text" name="name" placeholder="Email">
+                <input type="text" name="name" placeholder="Age">
+                <input type="text" name="name" placeholder="Gender">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block btn-large">Next</button>
+
+         </form>     
+    </div>
+</body>
+</html>

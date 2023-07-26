@@ -1,0 +1,59 @@
+html, body {
+    min-height: 100%;
+}
+body, div, form, input, select, p { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+body {
+    background: url("/uploads/media/default/0001/01/b5edc1bad4dc8c20291c8394527cb2c5b43ee13c.jpeg") no-repeat center;
+    background-size: cover;
+}
+h1, h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+    h2 {
+    margin: 0 0 0 8px;
+    }
+    .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 25px;
+    background: #ec636adc; 
+    }
+    body{
+      background-color:#ec636adc;
+    }
+  .cloud{                                                                         /*Rectangle*/
+  margin-top:250px;
+  width:650px;
+  height:90px;
+  background:#ECEFF1;
+  box-shadow: 10px 10px rgba(0,0,0,0.2);
+  border-radius:100px;
+  color:black;
+  text-align:center;
+  vertical-align:middle;
+  justify-content:center;
+  align-items: center;
+  font-size: 35px;
+  margin-left: 7%;
+  padding-top: 20px;
+ 
+  }
+  .cloud::after, .cloud::before{
+      content:"";
+      position:relative;
+      display:inline-block;
+      background:inherit;
+      border-radius:inherit;
+  }
+
